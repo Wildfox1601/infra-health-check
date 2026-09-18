@@ -1,0 +1,46 @@
+{
+    "hosts": [
+        "127.0.0.1",
+        "192.168.1.50",
+        "192.168.1.51"
+    ],
+
+    "ports": [
+        {
+            "port": 22,
+            "name": "SSH",
+            "timeout": 2
+        },
+        {
+            "port": 80,
+            "name": "HTTP",
+            "timeout": 2
+        },
+        {
+            "port": 443,
+            "name": "HTTPS",
+            "timeout": 2
+        }
+    ],
+
+    "thresholds": {
+        "cpu_warning": 70,
+        "cpu_critical": 90,
+
+        "memory_warning": 75,
+        "memory_critical": 90,
+
+        "disk_warning": 75,
+        "disk_critical": 90,
+
+        "failed_ssh_warning": 5,
+        "failed_ssh_critical": 20
+    },
+
+    "settings": {
+        "ping_timeout": 2,
+        "max_workers": 10,
+        "log_lines": 5000,
+        "report_directory": "reports"
+    }
+}
