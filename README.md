@@ -491,32 +491,6 @@ Potential extensions include:
 - Multi-server remote monitoring
 - Historical health trends
 
-## Skills Demonstrated
-
-This project demonstrates practical knowledge of:
-
-- Python
-- Linux system administration
-- TCP/IP networking
-- ICMP
-- TCP sockets
-- Service availability monitoring
-- Linux authentication logs
-- Resource monitoring
-- JSON configuration
-- Concurrent programming
-- Exception handling
-- CLI application development
-- Logging
-- Automation
-- Infrastructure troubleshooting
-
-## Resume Description
-
-A concise resume-ready description for this project:
-
-> **Python Infrastructure Health-Check Automation** — Developed a Python CLI utility to monitor host reachability and TCP service availability, collect CPU/memory/disk metrics, analyze Linux authentication logs, evaluate configurable health thresholds, and generate automated JSON status reports using concurrent network checks.
-
 ## License
 
 This project is intended as a personal learning and portfolio project.
